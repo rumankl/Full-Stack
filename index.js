@@ -5,7 +5,7 @@ import orderRoutes from './Routes/orderRoutes.js';
 
 import mongoose from "mongoose";
 import fileUpload from "express-fileupload";
-const port = process.env.PORT || 5000; 5000;
+const port = process.env.PORT || 5000;
 import cors from 'cors';
 import cookieParser from "cookie-parser";
 const app = express();
