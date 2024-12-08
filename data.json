@@ -1,0 +1,137 @@
+[
+  {
+    "title": "iPhone 14 Pro",
+    "description": "Latest iPhone with dynamic island and improved cameras",
+    "image": "/images/iphone14pro.jpg",
+    "category": "Tech",
+    "brand": "Apple",
+    "rating": 4.8,
+    "stock": 150
+  },
+  {
+    "title": "MacBook Air M2",
+    "description": "Ultra-thin laptop with exceptional battery life",
+    "image": "/images/macbookairm2.jpg",
+    "category": "Tech",
+    "brand": "Apple",
+    "rating": 4.9,
+    "stock": 100
+  },
+  {
+    "title": "AirPods Pro",
+    "description": "Noise-cancelling wireless earbuds",
+    "image": "/images/airpodspro.jpg",
+    "category": "Tech",
+    "brand": "Apple",
+    "rating": 4.7,
+    "stock": 200
+  },
+  {
+    "title": "iPad Pro 12.9",
+    "description": "Professional tablet with M2 chip",
+    "image": "/images/ipadpro.jpg",
+    "category": "Tech",
+    "brand": "Apple",
+    "rating": 4.8,
+    "stock": 75
+  },
+  {
+    "title": "Apple Watch Series 8",
+    "description": "Advanced health and fitness tracking",
+    "image": "/images/watchseries8.jpg",
+    "category": "Tech",
+    "brand": "Apple",
+    "rating": 4.6,
+    "stock": 120
+  },
+  {
+    "title": "Model S Plaid",
+    "description": "High-performance electric sedan",
+    "image": "/images/modelsp.jpg",
+    "category": "Tech",
+    "brand": "Tesla",
+    "rating": 4.9,
+    "stock": 15
+  },
+  {
+    "title": "Model 3",
+    "description": "Popular electric mid-size sedan",
+    "image": "/images/model3.jpg",
+    "category": "Tech",
+    "brand": "Tesla",
+    "rating": 4.7,
+    "stock": 50
+  },
+  {
+    "title": "Model X",
+    "description": "Premium electric SUV with falcon wings",
+    "image": "/images/modelx.jpg",
+    "category": "Tech",
+    "brand": "Tesla",
+    "rating": 4.8,
+    "stock": 25
+  },
+  {
+    "title": "Model Y",
+    "description": "Compact electric SUV",
+    "image": "/images/modely.jpg",
+    "category": "Tech",
+    "brand": "Tesla",
+    "rating": 4.6,
+    "stock": 40
+  },
+  {
+    "title": "Tesla Powerwall",
+    "description": "Home battery system",
+    "image": "/images/powerwall.jpg",
+    "category": "Tech",
+    "brand": "Tesla",
+    "rating": 4.5,
+    "stock": 60
+  },
+  {
+    "title": "GG Marmont Bag",
+    "description": "Luxury quilted leather shoulder bag",
+    "image": "/images/marmont.jpg",
+    "category": "Clothes",
+    "brand": "Gucci",
+    "rating": 4.7,
+    "stock": 30
+  },
+  {
+    "title": "Gucci Princetown Slippers",
+    "description": "Iconic leather mules with horsebit",
+    "image": "/images/princetown.jpg",
+    "category": "Clothes",
+    "brand": "Gucci",
+    "rating": 4.6,
+    "stock": 45
+  },
+  {
+    "title": "GG Belt",
+    "description": "Classic double G buckle belt",
+    "image": "/images/ggbelt.jpg",
+    "category": "Clothes",
+    "brand": "Gucci",
+    "rating": 4.8,
+    "stock": 80
+  },
+  {
+    "title": "Rhyton Sneakers",
+    "description": "Vintage-inspired leather sneakers",
+    "image": "/images/rhyton.jpg",
+    "category": "Clothes",
+    "brand": "Gucci",
+    "rating": 4.5,
+    "stock": 35
+  },
+  {
+    "title": "GG Jacket",
+    "description": "Wool jacket with GG buttons",
+    "image": "/images/ggjacket.jpg",
+    "category": "Clothes",
+    "brand": "Gucci",
+    "rating": 4.7,
+    "stock": 25
+  }
+]
