@@ -45,9 +45,9 @@ export const orderApi = appApi.injectEndpoints({
       query: (q) => ({
         url: '/orders',
         body: q.body,
-        headers: {
-          Authorization: q.token
-        },
+        // headers: {
+        //   Authorization: q.token
+        // },
         method: 'POST'
       }),
       invalidatesTags: ['Order']

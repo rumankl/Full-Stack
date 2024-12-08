@@ -16,7 +16,7 @@ export function ShowDialog({ totalAmount, orderItems }) {
   const [addOrder, { isLoading }] = useAddOrderMutation();
   const [open, setOpen] = React.useState(false);
 
-  const { user } = useSelector((state) => state.userSlice);
+  // const { user } = useSelector((state) => state.userSlice);
 
   const handleOpen = () => setOpen(!open);
 
@@ -25,13 +25,14 @@ export function ShowDialog({ totalAmount, orderItems }) {
     try {
       await addOrder({
         body: { totalAmount, orderItems },
-        token: user.token
+        // token: user.token
       }).unwrap();
       toast.success('success');
       dispatch(clearCarts());
 
     } catch (err) {
       toast.error(`${err.data?.message}`);
+
     }
   }
 
