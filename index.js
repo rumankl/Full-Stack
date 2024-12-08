@@ -15,7 +15,7 @@ const app = express();
 app.use(cors(
   {
     // origin: ['https://mern-shrawan.onrender.com'], //frontend origin
-    origin: 'http://localhost:3000',
+    origin: ['http://localhost:3000', 'https://full-stack-ashy.vercel.app'],
     credentials: true
   }
 ));
