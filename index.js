@@ -5,7 +5,7 @@ import orderRoutes from './Routes/orderRoutes.js';
 
 import mongoose from "mongoose";
 import fileUpload from "express-fileupload";
-const port = 5000;
+const port = process.env.PORT || 5000; 5000;
 import cors from 'cors';
 import cookieParser from "cookie-parser";
 const app = express();
@@ -36,7 +36,9 @@ mongoose.connect('mongodb+srv://rulokifs:mongodb@cluster0.xlryd.mongodb.net/Shop
   console.log(err);
 });
 
-
+app.get('/', (req, res) => {
+  return res.status(200).json({ message: 'welcome to shop' });
+})
 
 
 // app.use(authRoutes);
